@@ -1,0 +1,1 @@
+        String signature = ( Base64.encodeToString(hmac.doFinal(stringToSign.getBytes("UTF-8")), Base64.DEFAULT)).replaceAll("\n", "");
